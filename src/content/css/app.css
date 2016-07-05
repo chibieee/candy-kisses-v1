@@ -1,0 +1,15 @@
+body {
+    padding-top: 60px;
+    background-color: rgba(245, 166, 200, 1);
+    color: rgb(42, 125, 51);
+}
+
+.navbar-default {
+    background-color: rgba(245, 166, 200, 1);
+}
+
+.navbar-default .navbar-nav>li>a {
+    font-size: 24px;
+    color: rgb(42, 125, 51);
+    font-family: 'Architects Daughter', sans-serif;
+}

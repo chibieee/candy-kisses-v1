@@ -1,0 +1,35 @@
+<!doctype html>
+<html ng-app="app">
+    <head>
+        <meta charset="utf-8">
+        <title>Candy Kisses Arrangements</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+        <link rel="stylesheet" href="content/css/app.css">
+        <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+    </head>
+    <body>
+        
+        <ck-navbar></ck-navbar>
+        
+        <div ng-view class="container"></div>
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.4/angular.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.4/angular-resource.js"></script>
+        <script src="https://code.angularjs.org/1.4.4/angular-route.js"></script>
+        
+        <script src="app/app.module.js"></script>
+        
+        <script src="app/landing/landing.module.js"></script>
+        <script src="app/landing/config.route.js"></script>
+        
+        <script src="app/layout/layout.module.js"></script>
+        <script src="app/layout/navbar.directive.js"></script>
+        
+        <script src="app/shop/shop.module.js"></script>
+        <script src="app/shop/config.route.js"></script>
+    
+        
+        
+    </body>
+</html>
